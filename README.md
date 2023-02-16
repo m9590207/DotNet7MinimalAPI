@@ -8,12 +8,12 @@
 * CQRS MediatR
   
 ## API  
-### ¬d¸ßSuper Hero by ID
+### æŸ¥è©¢Super Hero by ID
 **GET /api/SuperHero/{id}**
 * Path params
   * id (int)
 
-### §ó·sSuper Hero by ID
+### æ›´æ–°Super Hero by ID
 **PUT /api/SuperHero/{id}**
 * Headers
   * Content-Type: application/json
@@ -23,12 +23,12 @@
   * name (string)
   * place (string)
 
-### §R°£Super Hero by ID
+### åˆªé™¤Super Hero by ID
 **DELETE /api/SuperHero/{id}**
 * Path params
   * id (int)
   
-### ·s¼WSuper Hero 
+### æ–°å¢žSuper Hero 
 **POST /api/SuperHero**
 * Headers
   * Content-Type: application/json
@@ -36,7 +36,7 @@
   * name (string)
   * place (string)
 
-### ¬d¸ß©Ò¦³Super Hero
+### æŸ¥è©¢æ‰€æœ‰Super Hero
 **GET /api/SuperHero**
 
 
