@@ -1,6 +1,8 @@
 using DotNet7MinimalAPI.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
+
+//註冊服務收到另一個檔,保持Program.cs簡潔
 builder.RegisterServices();
 
 var app = builder.Build();

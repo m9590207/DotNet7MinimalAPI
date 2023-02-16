@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet7MinimalAPI", "DotNet7MinimalAPI\DotNet7MinimalAPI.csproj", "{FEE213F5-4E05-4D53-8D73-FCC5C3053665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet7MinimalAPI", "DotNet7MinimalAPI\DotNet7MinimalAPI.csproj", "{FEE213F5-4E05-4D53-8D73-FCC5C3053665}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{6609AB0F-1226-44A1-9E3F-D8AE32E36D9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{6609AB0F-1226-44A1-9E3F-D8AE32E36D9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{7408459C-6977-49BF-81AD-530D73BFBB3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{7408459C-6977-49BF-81AD-530D73BFBB3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{8C600CA0-1207-44C7-83D8-B547D98354C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{8C600CA0-1207-44C7-83D8-B547D98354C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項目", "{DBF11182-2AF7-4FD2-966D-CF2DE05DAEDC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
