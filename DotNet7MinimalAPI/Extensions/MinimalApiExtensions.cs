@@ -13,7 +13,12 @@ namespace DotNet7MinimalAPI.Extensions
         public static void RegisterServices(this WebApplicationBuilder builder)
         {
             var cs = builder.Configuration.GetConnectionString("Default");
-            builder.Services.AddDbContext<SuperHeroDbContext>(opt => opt.UseSqlServer(cs));
+            builder.Services.AddDbContext<SuperHeroDbContext>(opt => 
+            { 
+                opt.UseSqlServer(cs);
+                opt.EnableSensitiveDataLogging(); //加上這個設定,透過EF Core對資料庫送出的SQL語法都會在Console中出現
+                //opt.LogTo(Console.WriteLine);
+            });
             builder.Services.AddScoped<ISuperHeroRepository, SuperHeroRepository>();
             builder.Services.AddMediatR(typeof(CreateSuperHero));
 
